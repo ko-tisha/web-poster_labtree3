@@ -1,0 +1,10 @@
+@font-face{
+    font-family: "TTAutonomousMonoTrialRegular";
+    src: url("../font/TTAutonomousMonoTrialRegular.ttf") format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.t1, .t2, .t3, .t4, .t5 {
+    font-family: "TTAutonomousMonoTrialRegular";
+}
