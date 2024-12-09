@@ -370,7 +370,7 @@ body {
     justify-content: flex-end; 
     align-items: center;
     margin-top: -28.6vw;
-    margin-left: 0.55vw;
+    margin-left: 0.25vw;
     /* margin-left: -0.05vw; */
 }
 
@@ -395,6 +395,7 @@ body {
     color: #000;
     font-size: 3.6vw;
     position: absolute;
+    margin-left: 63vw;
     /* margin-top: 3100px;
     margin-left: 1470px; */
     /* display: flex;
@@ -408,14 +409,15 @@ body {
     display: inline-block; 
     /* justify-content: center;  */
     align-items: center;
-    position: relative;
+    /* position: relative; */
 }
 
 .rec13{
     width: 70%;
+    /* position: absolute; */
     background-color: #ffffff;
-    /* display: flex;
-    flex-direction: column; */
+    display: flex;
+    flex-direction: column;
 }
 
 .t4{
@@ -429,9 +431,10 @@ body {
 
 .rec14{
     width: 30%;
+    /* position: absolute; */
     background-color: #1990FF;
-    /* display: flex;
-    flex-direction: column; */
+    display: flex;
+    flex-direction: column;
 }
 
 /* .t4{

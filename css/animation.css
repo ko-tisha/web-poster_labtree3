@@ -58,9 +58,31 @@
 }
 
 @keyframes colort1 {
-    0%{color: rgb(255, 255, 255);}
-    50%{color: rgb(0, 0, 0);}
-    100%{color: rgb(255, 255, 255);}
+    0%{color: #ffffff;}
+    50%{color: #000000;}
+    100%{color: #ffffff;}
+}
+
+.rec13{
+    position: absolute;
+    animation: colorrec13 1s infinite;
+}
+
+@keyframes colorrec13 {
+    0%{background-color: #ffffff;}
+    50%{background-color: #1990FF;}
+    100%{background-color: #ffffff;}
+}
+
+.rec14{
+    position: absolute;
+    animation: colorrec14 1s infinite;
+}
+
+@keyframes colorrec14 {
+    0%{background-color: #1990FF;}
+    50%{background-color: #ffffff;}
+    100%{background-color: #1990FF;}
 }
 
   /* .t1{
@@ -486,11 +508,11 @@ animation: o1a 2s linear infinite;
 
 @keyframes t3ad {
     0% {
-        top: -60px;
+        top: -5vw;
         left: 10.2%;
     }
     100% {
-        top: 60%;
+        top: 40vw;
         left: 10.2%;
     }
 }
