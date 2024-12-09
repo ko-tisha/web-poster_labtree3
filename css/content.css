@@ -221,13 +221,13 @@ body {
 }
 
 .flow1{
-    size: 100%;
+    size: 100vw;
     margin-left: 2.6vw;
     margin-top: -1vw;
 }
 
 .flow2{
-    size: 50%;
+    size: 50vw;
     margin-left: 2.6vw;
     margin-top: -4.2vw;
 }
@@ -326,7 +326,7 @@ body {
 }
 
 .rec9{
-    width: 59,5vw;
+    width: 59.5vw;
     height: 67.2vw;
     background-color: #1D1D1D;
     border-radius: 20.8vw 0vw 0vw 0vw;
