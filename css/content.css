@@ -221,15 +221,15 @@ body {
 }
 
 .flow1{
-    size: 100vw;
-    margin-left: 2.6vw;
+    width: 35vw;
+    margin-left: 5vw;
     margin-top: -1vw;
 }
 
 .flow2{
-    size: 50vw;
+    width: 20vw;
     margin-left: 2.6vw;
-    margin-top: -4.2vw;
+    margin-top: -2vw;
 }
 
 .group2{
@@ -251,38 +251,44 @@ body {
 
 .c1{
     width: 25%;
-    margin-left: -1.5vw;
-    margin-top: 2.6vw;
+    margin-left: -12vw;
+    margin-bottom: 20vw;
     position: absolute;
 }
 
 .c2{
     width: 25%;
-    margin-left: -1.6vw;
-    margin-top: 2.6vw;
+    margin-left: -3vw;
+    margin-bottom: 23vw;
     position: absolute;
 }
 
 .c3{
     width: 25%;
+    margin-left: 7vw;
+    margin-bottom: 18vw;
     position: absolute;
 }
 
 .c4{
     width: 25%;
+    margin-left: -11vw;
+    margin-bottom: 9vw;
     position: absolute;
 }
 
 .c5{
     width: 25%;
+    margin-left: -1vw;
+    margin-bottom: 12vw;
     position: absolute;
 }
 
 .c6{
     width: 25%;
+    margin-left: 6vw;
+    margin-bottom: 5vw;
     position: absolute;
-    /* margin-left: 30px;
-    margin-top: -50px; */
 }
 
 .rec7{
