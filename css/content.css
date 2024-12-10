@@ -407,6 +407,7 @@ body {
 .rec9{
     width: 59.5vw;
     height: 67.2vw;
+    /* background-color: #9f9f9f; */
     background-color: #1D1D1D;
     border-radius: 20.8vw 0vw 0vw 0vw;
     display: flex;

@@ -310,6 +310,157 @@ animation: o1a 2s linear infinite;
     }
 }
 
+.z1 {
+    animation: fallz1 1.5s infinite linear;
+}
+
+@keyframes fallz1 {
+    0% {
+        top: -15vw;
+        /* left: 10.2%; */
+    }
+    100% {
+        top: 30vw;
+        /* left: 10.2%; */
+    }
+}
+
+.z2 {
+    animation: fallz2 2s infinite linear;
+}
+
+@keyframes fallz2 {
+    0% {
+        top: -15vw;
+        /* left: 10.2%; */
+    }
+    100% {
+        top: 30vw;
+        /* left: 10.2%; */
+    }
+}
+
+.z3 {
+    animation: fallz3 1.7s infinite linear;
+}
+
+@keyframes fallz3 {
+    0% {
+        top: -15vw;
+        /* left: 10.2%; */
+    }
+    100% {
+        top: 30vw;
+        /* left: 10.2%; */
+    }
+}
+
+.z4 {
+    animation: fallz4 1.8s infinite linear;
+}
+
+@keyframes fallz4 {
+    0% {
+        top: -15vw;
+        /* left: 10.2%; */
+    }
+    100% {
+        top: 30vw;
+        /* left: 10.2%; */
+    }
+}
+
+.z5 {
+    animation: fallz5 1.2s infinite linear;
+}
+
+@keyframes fallz5 {
+    0% {
+        top: -15vw;
+        /* left: 10.2%; */
+    }
+    100% {
+        top: 30vw;
+        /* left: 10.2%; */
+    }
+}
+
+.z6 {
+    animation: fallz3 2s infinite linear;
+}
+
+@keyframes fallz3 {
+    0% {
+        top: -15vw;
+        /* left: 10.2%; */
+    }
+    100% {
+        top: 30vw;
+        /* left: 10.2%; */
+    }
+}
+
+.z7 {
+    animation: fallz7 1.7s infinite linear;
+}
+
+@keyframes fallz7 {
+    0% {
+        top: -15vw;
+        /* left: 10.2%; */
+    }
+    100% {
+        top: 30vw;
+        /* left: 10.2%; */
+    }
+}
+
+.z8 {
+    animation: fallz8 1.8s infinite linear;
+}
+
+@keyframes fallz8 {
+    0% {
+        top: -15vw;
+        /* left: 10.2%; */
+    }
+    100% {
+        top: 30vw;
+        /* left: 10.2%; */
+    }
+}
+
+.z9 {
+    animation: fallz9 1.2s infinite linear;
+}
+
+@keyframes fallz9 {
+    0% {
+        top: -15vw;
+        /* left: 10.2%; */
+    }
+    100% {
+        top: 30vw;
+        /* left: 10.2%; */
+    }
+}
+
+.z10 {
+    animation: fallz10 2s infinite linear;
+}
+
+@keyframes fallz10 {
+    0% {
+        top: -15vw;
+        /* left: 10.2%; */
+    }
+    100% {
+        top: 30vw;
+        /* left: 10.2%; */
+    }
+}
+
+
 .seed1 {
     /* width: 100%;
     margin: auto; */
@@ -436,6 +587,84 @@ animation: o1a 2s linear infinite;
   
     40%, 60% {
       transform: translate3d(8px, 0, 0);
+    }
+}
+
+.v1 {
+    animation: fallv1 1.5s infinite linear;
+}
+
+@keyframes fallv1 {
+    0% {
+        left: 53vw;
+    }
+    100% {
+        left: 69vw;
+    }
+}
+
+.v2 {
+    animation: fallv2 1.5s infinite linear;
+}
+
+@keyframes fallv2 {
+    0% {
+        left: 53vw;
+    }
+    100% {
+        left: 69vw;
+    }
+}
+
+.v3 {
+    animation: fallv3 1.5s infinite linear;
+}
+
+@keyframes fallv3 {
+    0% {
+        left: 53vw;
+    }
+    100% {
+        left: 69vw;
+    }
+}
+
+.v4 {
+    animation: fallv4 1.5s infinite linear;
+}
+
+@keyframes fallv4 {
+    0% {
+        left: 53vw;
+    }
+    100% {
+        left: 69vw;
+    }
+}
+
+.v5 {
+    animation: fallv5 1.5s infinite linear;
+}
+
+@keyframes fallv5 {
+    0% {
+        left: 53vw;
+    }
+    100% {
+        left: 69vw;
+    }
+}
+
+.v6 {
+    animation: fallv6 1.5s infinite linear;
+}
+
+@keyframes fallv6 {
+    0% {
+        left: 53vw;
+    }
+    100% {
+        left: 69vw;
     }
 }
 
