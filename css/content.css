@@ -297,8 +297,79 @@ body {
     width: 21.9vw;
     height: 30.5vw;
     background-color: #ffffff;
+    position: relative;
     display: flex;
     flex-direction: column;
+}
+
+.z1 {
+    width: 10%;
+    margin-left: 3vw;
+    margin-top: 4vw;
+    position: absolute;
+}
+
+.z2 {
+    width: 10%;
+    margin-left: 10vw;
+    margin-top: 2vw;
+    position: absolute;
+}
+
+.z3 {
+    width: 10%;
+    margin-left: 16vw;
+    margin-top: 6vw;
+    position: absolute;
+}
+
+.z4 {
+    width: 10%;
+    margin-left: 7.5vw;
+    margin-top: 9vw;
+    position: absolute;
+}
+
+.z5 {
+    width: 10%;
+    margin-left: 13vw;
+    margin-top: 12vw;
+    position: absolute;
+}
+
+.z6 {
+    width: 10%;
+    margin-left: 3vw;
+    margin-top: 15vw;
+    position: absolute;
+}
+
+.z7 {
+    width: 10%;
+    margin-left: 9vw;
+    margin-top: 18vw;
+    position: absolute;
+}
+
+.z8 {
+    width: 10%;
+    margin-left: 16vw;
+    margin-top: 17vw;
+    position: absolute;
+}
+
+.z9 {
+    width: 10%;
+    margin-left: 4vw;
+    margin-top: 23vw;
+    position: absolute;
+}
+
+.z10 {
+    width: 10%;
+    margin-left: 13vw;
+    margin-top: 24vw;
+    position: absolute;
 }
 
 .rec8{
@@ -381,6 +452,48 @@ body {
     background-color: #1990FF;
     display: flex;
     flex-direction: column;
+}
+
+.v1 {
+    width: 0.6%;
+    margin-left: 2vw;
+    margin-top: 7vw;
+    position: absolute;
+}
+
+.v2 {
+    width: 0.6%;
+    margin-left: 3.5vw;
+    margin-top: 23vw;
+    position: absolute;
+}
+
+.v3 {
+    width: 0.6%;
+    margin-left: 4.5vw;
+    margin-top: -2vw;
+    position: absolute;
+}
+
+.v4 {
+    width: 0.6%;
+    margin-left: 6vw;
+    margin-top: 12vw;
+    position: absolute;
+}
+
+.v5 {
+    width: 0.6%;
+    margin-left: 8.5vw;
+    margin-top: 4vw;
+    position: absolute;
+}
+
+.v6 {
+    width: 0.6%;
+    margin-left: 10vw;
+    margin-top: 17vw;
+    position: absolute;
 }
 
 .rec12{
