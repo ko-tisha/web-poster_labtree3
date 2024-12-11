@@ -561,13 +561,13 @@ animation: o1a 2s linear infinite;
     }
 }
 
-/* .v_2 {
+.v_2 {
     animation: fallv_2 1.5s infinite linear;
 }
 
 @keyframes fallv_2 {
     0% {
-        left: -20vw;
+        animation-delay: 2s;
     }
     50% {
         left: -20vw;
@@ -575,7 +575,7 @@ animation: o1a 2s linear infinite;
     100% {
         left: 15vw;
     }
-} */
+}
 
 
 
