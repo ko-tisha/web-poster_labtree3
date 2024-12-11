@@ -63,28 +63,6 @@
     100%{color: #ffffff;}
 }
 
-.rec13{
-    position: absolute;
-    animation: colorrec13 1s infinite;
-}
-
-@keyframes colorrec13 {
-    0%{background-color: #ffffff;}
-    50%{background-color: #1990FF;}
-    100%{background-color: #ffffff;}
-}
-
-.rec14{
-    position: absolute;
-    animation: colorrec14 1s infinite;
-}
-
-@keyframes colorrec14 {
-    0%{background-color: #1990FF;}
-    50%{background-color: #ffffff;}
-    100%{background-color: #1990FF;}
-}
-
   /* .t1{
     position: absolute;
     white-space: nowrap;
@@ -316,12 +294,10 @@ animation: o1a 2s linear infinite;
 
 @keyframes fallz1 {
     0% {
-        top: -15vw;
-        /* left: 10.2%; */
+        top: -10vw;
     }
     100% {
-        top: 30vw;
-        /* left: 10.2%; */
+        top: 60vw;
     }
 }
 
@@ -331,12 +307,10 @@ animation: o1a 2s linear infinite;
 
 @keyframes fallz2 {
     0% {
-        top: -15vw;
-        /* left: 10.2%; */
+        top: -10vw;
     }
     100% {
-        top: 30vw;
-        /* left: 10.2%; */
+        top: 60vw;
     }
 }
 
@@ -346,12 +320,10 @@ animation: o1a 2s linear infinite;
 
 @keyframes fallz3 {
     0% {
-        top: -15vw;
-        /* left: 10.2%; */
+        top: -10vw;
     }
     100% {
-        top: 30vw;
-        /* left: 10.2%; */
+        top: 60vw;
     }
 }
 
@@ -361,12 +333,10 @@ animation: o1a 2s linear infinite;
 
 @keyframes fallz4 {
     0% {
-        top: -15vw;
-        /* left: 10.2%; */
+        top: -10vw;
     }
     100% {
-        top: 30vw;
-        /* left: 10.2%; */
+        top: 60vw;
     }
 }
 
@@ -376,12 +346,10 @@ animation: o1a 2s linear infinite;
 
 @keyframes fallz5 {
     0% {
-        top: -15vw;
-        /* left: 10.2%; */
+        top: -10vw;
     }
     100% {
-        top: 30vw;
-        /* left: 10.2%; */
+        top: 60vw;
     }
 }
 
@@ -391,12 +359,10 @@ animation: o1a 2s linear infinite;
 
 @keyframes fallz3 {
     0% {
-        top: -15vw;
-        /* left: 10.2%; */
+        top: -10vw;
     }
     100% {
-        top: 30vw;
-        /* left: 10.2%; */
+        top: 60vw;
     }
 }
 
@@ -406,12 +372,10 @@ animation: o1a 2s linear infinite;
 
 @keyframes fallz7 {
     0% {
-        top: -15vw;
-        /* left: 10.2%; */
+        top: -10vw;
     }
     100% {
-        top: 30vw;
-        /* left: 10.2%; */
+        top: 60vw;
     }
 }
 
@@ -421,12 +385,10 @@ animation: o1a 2s linear infinite;
 
 @keyframes fallz8 {
     0% {
-        top: -15vw;
-        /* left: 10.2%; */
+        top: -10vw;
     }
     100% {
-        top: 30vw;
-        /* left: 10.2%; */
+        top: 60vw;
     }
 }
 
@@ -436,12 +398,10 @@ animation: o1a 2s linear infinite;
 
 @keyframes fallz9 {
     0% {
-        top: -15vw;
-        /* left: 10.2%; */
+        top: -10vw;
     }
     100% {
-        top: 30vw;
-        /* left: 10.2%; */
+        top: 60vw;
     }
 }
 
@@ -451,12 +411,10 @@ animation: o1a 2s linear infinite;
 
 @keyframes fallz10 {
     0% {
-        top: -15vw;
-        /* left: 10.2%; */
+        top: -10vw;
     }
     100% {
-        top: 30vw;
-        /* left: 10.2%; */
+        top: 60vw;
     }
 }
 
@@ -590,83 +548,36 @@ animation: o1a 2s linear infinite;
     }
 }
 
-.v1 {
-    animation: fallv1 1.5s infinite linear;
+.v {
+    animation: fallv 1.5s infinite linear;
 }
 
-@keyframes fallv1 {
+@keyframes fallv {
     0% {
-        left: 53vw;
+        left: -20vw;
     }
     100% {
-        left: 69vw;
+        left: 15vw;
     }
 }
 
-.v2 {
-    animation: fallv2 1.5s infinite linear;
+/* .v_2 {
+    animation: fallv_2 1.5s infinite linear;
 }
 
-@keyframes fallv2 {
+@keyframes fallv_2 {
     0% {
-        left: 53vw;
+        left: -20vw;
+    }
+    50% {
+        left: -20vw;
     }
     100% {
-        left: 69vw;
+        left: 15vw;
     }
-}
+} */
 
-.v3 {
-    animation: fallv3 1.5s infinite linear;
-}
 
-@keyframes fallv3 {
-    0% {
-        left: 53vw;
-    }
-    100% {
-        left: 69vw;
-    }
-}
-
-.v4 {
-    animation: fallv4 1.5s infinite linear;
-}
-
-@keyframes fallv4 {
-    0% {
-        left: 53vw;
-    }
-    100% {
-        left: 69vw;
-    }
-}
-
-.v5 {
-    animation: fallv5 1.5s infinite linear;
-}
-
-@keyframes fallv5 {
-    0% {
-        left: 53vw;
-    }
-    100% {
-        left: 69vw;
-    }
-}
-
-.v6 {
-    animation: fallv6 1.5s infinite linear;
-}
-
-@keyframes fallv6 {
-    0% {
-        left: 53vw;
-    }
-    100% {
-        left: 69vw;
-    }
-}
 
 /* 1 вариант - падение на землю */
 
@@ -719,11 +630,11 @@ animation: o1a 2s linear infinite;
 /* 1 вариант - падение за пределы */
 
 .t3 {
-    animation: t3as 2s linear infinite;
+    /* animation: t3as 2s linear infinite; */
     animation: t3ad 2s infinite linear, t3aa 6s 0s normal none infinite running linear;
 }
 
-@keyframes t3as {
+/* @keyframes t3as {
     0% {
         width: 100%;
     }
@@ -733,16 +644,16 @@ animation: o1a 2s linear infinite;
     100% {
         width: 100%;
     }
-}
+} */
 
 @keyframes t3ad {
     0% {
-        top: -5vw;
-        left: 10.2%;
+        top: 0vw;
+        /* left: 0%; */
     }
     100% {
-        top: 40vw;
-        left: 10.2%;
+        top: 30vw;
+        /* left: 100%; */
     }
 }
 
@@ -763,6 +674,30 @@ animation: o1a 2s linear infinite;
         transform: rotate(0deg);
     }
 }  
+
+
+
+.rec13{
+    /* position: absolute; */
+    animation: colorrec13 1s infinite;
+}
+
+@keyframes colorrec13 {
+    0%{background-color: #ffffff;}
+    50%{background-color: #1990FF;}
+    100%{background-color: #ffffff;}
+}
+
+.rec14{
+    /* position: absolute; */
+    animation: colorrec14 1s infinite;
+}
+
+@keyframes colorrec14 {
+    0%{background-color: #1990FF;}
+    50%{background-color: #ffffff;}
+    100%{background-color: #1990FF;}
+}
 
 
 
