@@ -1,7 +1,3 @@
-/* .l, .a, .B, .t, .r, .E, .e {
-    
-} */
-
 .l_2 {
     opacity: 1;
    }
@@ -51,7 +47,6 @@
     opacity: 0; 
 }
 
-
 .t1{
     position: absolute;
     animation: colort1 3s infinite linear;
@@ -62,35 +57,6 @@
     50%{color: #000000;}
     100%{color: #ffffff;}
 }
-
-  /* .t1{
-    position: absolute;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 3px solid rgb(0, 0, 0);
-    animation: cursor 0.75s step-end infinite, printed_text 5s steps(29);
-}
-
-@keyframes cursor {
-    0% {
-      border-color: rgb(0, 0, 0);
-    }
-  
-    50% {
-      border-color: transparent;
-    }
-  
-    100% {
-      border-color: rgb(0, 0, 0);
-    }
-  }
-  
-  @keyframes printed_text {
-    from {
-      width: 0;
-    }
-  } */
-  
 
 .t2{
     position: absolute;
@@ -177,7 +143,7 @@ animation: o1a 2s linear infinite;
         width: 15%;
     }
     50% {
-        width: 35%;
+        width: 30%;
     }
     100% {
         width: 15%;
@@ -262,29 +228,18 @@ animation: o1a 2s linear infinite;
 } 
 
 .c1, .c2, .c3, .c4, .c5, .c6 {
-    animation: circle1 5s infinite linear, circle1rot 10s infinite;
+    animation: circle1 3s infinite linear, circle1rot 5s infinite;
 }
 
-@keyframes circle1 {
-    0% {
-        bottom: -10%;
-        left: 45%;
-    }
-    50% {
-        bottom: -7%;
-        left: 48%;
-    }
-    100% {
-        bottom: -10%;
-        left: 45%;
-    }
-}
 @keyframes circle1rot {
     0% {
-        transform: rotate(0deg);
+        transform: rotate(-50deg);
+    }
+    50% {
+        transform: rotate(50deg);
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate(-50deg);
     }
 }
 
@@ -297,7 +252,7 @@ animation: o1a 2s linear infinite;
         top: -10vw;
     }
     100% {
-        top: 60vw;
+        top: 70vw;
     }
 }
 
@@ -310,7 +265,7 @@ animation: o1a 2s linear infinite;
         top: -10vw;
     }
     100% {
-        top: 60vw;
+        top: 70vw;
     }
 }
 
@@ -323,7 +278,7 @@ animation: o1a 2s linear infinite;
         top: -10vw;
     }
     100% {
-        top: 60vw;
+        top: 70vw;
     }
 }
 
@@ -336,7 +291,7 @@ animation: o1a 2s linear infinite;
         top: -10vw;
     }
     100% {
-        top: 60vw;
+        top: 70vw;
     }
 }
 
@@ -349,7 +304,7 @@ animation: o1a 2s linear infinite;
         top: -10vw;
     }
     100% {
-        top: 60vw;
+        top: 70vw;
     }
 }
 
@@ -362,7 +317,7 @@ animation: o1a 2s linear infinite;
         top: -10vw;
     }
     100% {
-        top: 60vw;
+        top: 70vw;
     }
 }
 
@@ -375,7 +330,7 @@ animation: o1a 2s linear infinite;
         top: -10vw;
     }
     100% {
-        top: 60vw;
+        top: 70vw;
     }
 }
 
@@ -388,7 +343,7 @@ animation: o1a 2s linear infinite;
         top: -10vw;
     }
     100% {
-        top: 60vw;
+        top: 70vw;
     }
 }
 
@@ -401,7 +356,7 @@ animation: o1a 2s linear infinite;
         top: -10vw;
     }
     100% {
-        top: 60vw;
+        top: 70vw;
     }
 }
 
@@ -414,79 +369,30 @@ animation: o1a 2s linear infinite;
         top: -10vw;
     }
     100% {
-        top: 60vw;
+        top: 70vw;
     }
 }
-
 
 .seed1 {
-    /* width: 100%;
-    margin: auto; */
-    animation: rot1 linear infinite;
+    animation: cseed1 5s infinite linear, crseed1 10s infinite;
 }
 
-@keyframes rot1 {
+@keyframes cseed1 {
     0% {
-        transform: rotateY(-180deg);
-    }
-    40% {
-        transform: rotateY(-180deg);
-    }    
-    50% {
-        transform: rotateY(0);
-    }
-    90% {
-        transform: rotateY(0);
-    }    
-    100% {
-        transform: rotateY(180deg);
-    } 
-}  
-
-.seed2 {
-    /* width: 100%;
-    margin: auto; */
-    animation: rot2 linear infinite;
-}
-
-@keyframes rot2 {
-    0% {
-        transform: rotateY(-180deg);
-    }
-    40% {
-        transform: rotateY(-180deg);
-    }    
-    50% {
-        transform: rotateY(0);
-    }
-    90% {
-        transform: rotateY(0);
-    }    
-    100% {
-        transform: rotateY(180deg);
-    } 
-}    
-
-
-/* .seed1 {
-    animation: circle1 5s infinite linear, circle1rot 10s infinite;
-}
-
-@keyframes circle1 {
-    0% {
-        bottom: -10%;
-        left: 45%;
+        top: -1%;
+        left: 0%;
     }
     50% {
-        bottom: -7%;
-        left: 48%;
+        top: -4%;
+        left: 3%;
     }
     100% {
-        bottom: -10%;
-        left: 45%;
+        top: -1%;
+        left: 0%;
     }
 }
-@keyframes circle1rot {
+
+@keyframes crseed1 {
     0% {
         transform: rotate(0deg);
     }
@@ -496,32 +402,32 @@ animation: o1a 2s linear infinite;
 }
 
 .seed2 {
-    animation: circle2 5s infinite linear, circle2rot 10s infinite;
+    animation: cseed2 5s infinite linear, crseed2 10s infinite;
 }
 
-@keyframes circle2 {
+@keyframes cseed2 {
     0% {
-        bottom: -10%;
-        left: 45%;
+        top: -1%;
+        left: 0%;
     }
     50% {
-        bottom: -7%;
-        left: 48%;
+        top: -4%;
+        left: 3%;
     }
     100% {
-        bottom: -10%;
-        left: 45%;
+        top: -1%;
+        left: 0%;
     }
 }
-@keyframes circle2rot {
+
+@keyframes crseed2 {
     0% {
         transform: rotate(0deg);
     }
     100% {
         transform: rotate(360deg);
     }
-} */
-
+}
 
 .bug {
     transform: translate3d(0, 0, 0);
@@ -549,111 +455,39 @@ animation: o1a 2s linear infinite;
 }
 
 .v {
-    animation: fallv 1.5s infinite linear;
+    display: inline-block;
+    white-space: nowrap;
+    position: relative;
+    animation: marquee 2s linear infinite;
 }
 
-@keyframes fallv {
+.v::before {
+    content: attr(data-content);
+    position: absolute;
+    white-space: nowrap;
+    top: 0;
+    left: 100%;
+}
+
+@keyframes marquee {
     0% {
-        left: -20vw;
+        transform: translateX(0);
     }
     100% {
-        left: 15vw;
+        transform: translateX(-100%);
     }
 }
-
-.v_2 {
-    animation: fallv_2 1.5s infinite linear;
-}
-
-@keyframes fallv_2 {
-    0% {
-        animation-delay: 2s;
-    }
-    50% {
-        left: -20vw;
-    }
-    100% {
-        left: 15vw;
-    }
-}
-
-
-
-/* 1 вариант - падение на землю */
-
-/* .t3 {
-    animation: t3as 2s linear infinite;
-    animation: t3ad 1s infinite linear, t3aa 1s 0s normal none infinite running linear;
-}
-
-@keyframes t3as {
-    0% {
-        width: 100%;
-    }
-    50% {
-        width: 50%;
-    }   
-    100% {
-        width: 100%;
-    }
-}
-
-@keyframes t3ad {
-    0% {
-        top: -60px;
-        left: 10.2%;
-    }
-    100% {
-        top: 30%;
-        left: 10.2%;
-    }
-}
-
-@keyframes t3aa {
-    0% {
-        transform: rotate(0deg);
-    }
-    25% {
-        transform: rotate(15deg);
-    }
-    50% {
-        transform: rotate(30deg);
-    }
-    75% {
-        transform: rotate(45deg);
-    }
-    100% {
-        transform: rotate(0deg);
-    }
-}   */
-
-/* 1 вариант - падение за пределы */
 
 .t3 {
-    /* animation: t3as 2s linear infinite; */
     animation: t3ad 2s infinite linear, t3aa 6s 0s normal none infinite running linear;
 }
-
-/* @keyframes t3as {
-    0% {
-        width: 100%;
-    }
-    50% {
-        width: 50%;
-    }   
-    100% {
-        width: 100%;
-    }
-} */
 
 @keyframes t3ad {
     0% {
         top: 0vw;
-        /* left: 0%; */
     }
     100% {
-        top: 30vw;
-        /* left: 100%; */
+        top: 40vw;
     }
 }
 
@@ -673,12 +507,9 @@ animation: o1a 2s linear infinite;
     100% {
         transform: rotate(0deg);
     }
-}  
-
-
+}
 
 .rec13{
-    /* position: absolute; */
     animation: colorrec13 1s infinite;
 }
 
@@ -689,7 +520,6 @@ animation: o1a 2s linear infinite;
 }
 
 .rec14{
-    /* position: absolute; */
     animation: colorrec14 1s infinite;
 }
 
@@ -700,67 +530,3 @@ animation: o1a 2s linear infinite;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-/* 
-.t1{
-    position: absolute;
-    animation: movet1 3s linear infinite;
-}
-
-@keyframes movet1{
-    0%{
-        transform: translate(-10%, 0);
-      }
-      100%{
-        transform: translate(-60%, 0);
-      }
-}
-
-.string__top {
-    background-color: #1e1e1e;
-    display: flex;
-    flex-direction: row;
-    text-transform: uppercase;
-    animation: top_move_1 8s infinite linear;
-    align-items: center;
-}
-.string__bottom {
-    background-color: #1e1e1e;
-    display: flex;
-    flex-direction: row;
-    text-transform: uppercase;
-    animation: top_move_2 5s infinite linear;
-    align-items: center;
-}
-
-@keyframes top_move_1 {
-    0%{
-      transform: translate(-10%, 0);
-    }
-    100%{
-      transform: translate(-60%, 0);
-    }
-  } 
-.string__bottom_item {
-    color: #fff;
-    font-size: 40px;
-    padding-left: 3%; 
-}
-@keyframes top_move_2 {
-    0%{
-      transform: translate(-80%, 0);
-    }
-    
-    100%{
-      transform: translate(-10%, 0);
-    }
-  }  */
