@@ -474,7 +474,7 @@ animation: o1a 2s linear infinite;
         transform: translateX(0);
     }
     100% {
-        transform: translateX(-100%);
+        transform: translateX(-55%);
     }
 }
 

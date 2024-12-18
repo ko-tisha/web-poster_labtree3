@@ -19,10 +19,12 @@ body {
         width: 100vw;
         height: 35vw;
         background-color: #1D1D1D;
+        overflow: hidden;
     }
     
     .namebox{
         gap: 1vw;
+        margin-top: 1vw;
         display: flex; 
         justify-content: center; 
         align-items: flex-end;
@@ -65,7 +67,7 @@ body {
     }
     
     .namebox_2{
-        margin-top: -29.8vw;
+        margin-top: -29.78vw;
         gap: 1vw;
         display: flex; 
         justify-content: center; 
@@ -109,7 +111,7 @@ body {
     }
     
     .rec2{
-        width: 60vw;
+        width: 59.5vw;
         height: 7vw;
         background-color: #ffffff;
         position: relative;
@@ -124,7 +126,7 @@ body {
     }
     
     .rec3{
-        width: 60vw;
+        width: 59.5vw;
         height: 7vw;
         background-color: #1D1D1D;
         position: relative;
@@ -145,9 +147,10 @@ body {
     }
     
     .rec4{
-        width: 60vw;
+        width: 59.5vw;
         height: 40vw;
         position: relative;
+        overflow: hidden;
         background-color: #C7C7C7;
         border-radius: 0vw 0vw 0vw 21vw;
         margin: 0 auto;
@@ -203,10 +206,11 @@ body {
     }
     
     .rec5{
-        width: 40vw;
+        width: 40.5vw;
         height: 54vw;
         background-color: #1990FF;
         border-radius: 0vw 0vw 21vw 0vw;
+        overflow: hidden;
         position: relative;
         margin-top: -14vw;
     }
@@ -215,12 +219,14 @@ body {
         width: 35vw;
         margin-left: 5vw;
         margin-top: -1vw;
+        position: absolute;
     }
     
     .flow2{
         width: 20vw;
         margin-left: 2.6vw;
-        margin-top: -2vw;
+        margin-top: 30vw;
+        position: absolute;
     }
     
     .group2{
@@ -234,6 +240,7 @@ body {
         width: 34.2vw;
         height: 30.5vw;
         position: relative;
+        overflow: hidden;
         background-color: #1990FF;
         border-radius: 20.8vw 0vw 0vw 20.8vw;
     }
@@ -364,6 +371,7 @@ body {
         background-color: #1D1D1D;
         border-radius: 0vw 20.8vw 20.8vw 0vw;
         position: relative;
+        overflow: hidden;
     }
     
     .seed1 {
@@ -408,15 +416,18 @@ body {
         height: 38.7vw;
         background-color: #C7C7C7;
         border-radius: 0vw 20.8vw 0vw 0vw;
+        overflow: hidden;
         margin-top: -28.6vw;
+        position: relative;
     }
     
     .bug{
         width: 95%;
         margin-top: 3.4vw;
         margin-left: 1.3vw;
+        position: absolute;
     }
-    
+
     .group4{
         width: 100vw;
         position: relative;
@@ -445,6 +456,7 @@ body {
     .rec12{
         width: 28.5vw;
         height: 28.6vw;
+        margin-right: 0.3vw;
         background-color: #ffffff;
         position: relative;
         overflow: hidden;
@@ -454,7 +466,7 @@ body {
         color: #000;
         font-size: 3.6vw;
         position: absolute;
-        margin-left: 3vw;
+        margin-left: 2vw;
     } 
     
     footer{
@@ -464,7 +476,7 @@ body {
     }
     
     .rec13{
-        width: 59%;
+        width: 59.5%;
         position: relative;
         display: flex; 
         justify-content: center; 
@@ -477,7 +489,7 @@ body {
     }
     
     .rec14{
-        width: 41%;
+        width: 40.5%;
         position: relative;
         background-color: #1990FF;
         display: flex; 
