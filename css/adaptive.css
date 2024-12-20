@@ -1,0 +1,34 @@
+ @media screen and (max-device-width:414px) {
+
+   .rec2 {
+     width: 100vw;
+   }
+
+   .rec3 {
+      width: 100vw;
+   }
+
+   .rec13 {
+      width: 100vw;
+   }
+
+   .rec14 {
+      width: 100vw;
+   }
+
+   .t1 {
+      font-size: 350%;
+   }
+
+   .t2 {
+      font-size: 350%;
+   }
+
+   .t3 {
+      font-size: 250%;
+   }
+
+   .t4 {
+      font-size: 250%;
+   }
+}

@@ -67,7 +67,7 @@ body {
     }
     
     .namebox_2{
-        margin-top: -29.78vw;
+        margin-top: -29.77vw;
         gap: 1vw;
         display: flex; 
         justify-content: center; 
@@ -435,11 +435,11 @@ body {
         justify-content: flex-end; 
         align-items: center;
         margin-top: -28.6vw;
-        margin-left: 0.25vw;
+        /* margin-left: 0.25vw; */
     }
     
     .rec11{
-        width: 12vw;
+        width: 11.7vw;
         height: 28.6vw;
         background-color: #1990FF;
         overflow: hidden;
