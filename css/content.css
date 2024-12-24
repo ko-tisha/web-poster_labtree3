@@ -115,6 +115,7 @@ body {
         height: 7vw;
         background-color: #ffffff;
         position: relative;
+        overflow: hidden;
     }
     
     .t1{
@@ -130,6 +131,7 @@ body {
         height: 7vw;
         background-color: #1D1D1D;
         position: relative;
+        overflow: hidden;
     }
     
     .t2{
@@ -407,7 +409,7 @@ body {
     .treeanim2{
         width: 95%;
         margin-top: 1vw;
-        margin-left: 0vw;
+        margin-left: 1.5vw;
         position: absolute;
     }
     
@@ -481,6 +483,7 @@ body {
         display: flex; 
         justify-content: center; 
         align-items: center;
+        overflow: hidden;
     }
     
     .t4{
@@ -495,6 +498,7 @@ body {
         display: flex; 
         justify-content: center; 
         align-items: center;
+        overflow: hidden;
     }
     
     
